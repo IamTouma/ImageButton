@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ImageButton</string>
+    <string name="image_button">Image Button</string>
+    <string name="button">Button</string>
+    <string name="tapped">Tapped</string>
+    <string name="image_description">a girl in a coffee shop</string>
+    <string name="touchme">Touch Me !</string>
+    <string name="thanks">Thanks !</string>
+</resources>

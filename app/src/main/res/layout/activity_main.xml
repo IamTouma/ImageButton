@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_imagebutton"
+        android:text="@string/touchme"
+        android:textSize="40sp"
+        android:textColor="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#0000"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/kids_chuunibyou_girl" />
+
+</LinearLayout>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--android:gravity="center"-->
+<!--android:background="#cfe"-->
+<!--tools:context=".MainActivity" >-->
+
+<!--<TextView-->
+    <!--android:id="@+id/text_imagebutton"-->
+    <!--android:textSize="30sp"-->
+    <!--android:textColor="#ff0000"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/image_button"/>-->
+
+<!--<ImageButton-->
+    <!--android:id="@+id/image_button"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#888"-->
+    <!--android:contentDescription="@string/image_description"-->
+    <!--android:src="@drawable/icon" />-->
+
+<!--<TextView-->
+    <!--android:id="@+id/text_button"-->
+    <!--android:textSize="30sp"-->
+    <!--android:textColor="#ff0000"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/button" />-->
+
+<!--<Button-->
+    <!--android:id="@+id/button"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/icon" />-->
+
+<!--</LinearLayout>-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
